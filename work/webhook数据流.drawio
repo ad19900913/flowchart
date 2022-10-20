@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T00:44:41.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gCPAiz8ZTnRUzv-4zhuq" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-20T00:51:19.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="2_4ERXGZvTVbyPJ7P3TF" version="20.4.1" type="github">
   <diagram id="rBHqKP6vlVbDTjs9O4Pg" name="第 1 页">
     <mxGraphModel dx="2723" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ii6t7dFbJUdwm51x7zY0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontFamily=Helvetica;fontColor=default;" edge="1" parent="1" source="Ii6t7dFbJUdwm51x7zY0-48" target="Ii6t7dFbJUdwm51x7zY0-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii6t7dFbJUdwm51x7zY0-48" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;fillColor=#FFCC99;gradientColor=none;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="90" width="390" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="Ii6t7dFbJUdwm51x7zY0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ii6t7dFbJUdwm51x7zY0-2" target="Ii6t7dFbJUdwm51x7zY0-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -119,6 +125,15 @@
         </mxCell>
         <mxCell id="Ii6t7dFbJUdwm51x7zY0-41" value="&lt;h1&gt;按租户进行区分&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="840" y="530" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii6t7dFbJUdwm51x7zY0-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=default;dashed=1;" edge="1" parent="1" source="Ii6t7dFbJUdwm51x7zY0-45" target="Ii6t7dFbJUdwm51x7zY0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii6t7dFbJUdwm51x7zY0-45" value="调度器" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;fillColor=#CCE5FF;gradientColor=none;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii6t7dFbJUdwm51x7zY0-51" value="&lt;h1&gt;之前是单节点执行&lt;/h1&gt;&lt;h1&gt;计划改造为多节点按租户进行任务分配&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="482.5" width="311" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

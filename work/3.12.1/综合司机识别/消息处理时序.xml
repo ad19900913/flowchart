@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T03:42:32.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f1_iy7_n5e0g9oVZQNeG" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T05:40:53.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="DBc_UtpWpmgTXqyddJpw" version="21.3.0" type="github">
   <diagram name="第 1 页" id="vAY6cHLI8g3zCwJ8tZ1V">
     <mxGraphModel dx="2261" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,12 +86,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="INkraP2U0uqstscji4Hl-16" value="签到时触发人脸抓拍" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="INkraP2U0uqstscji4Hl-15">
+        <mxCell id="INkraP2U0uqstscji4Hl-16" value="签到时触发人脸抓拍&lt;br&gt;只有一张图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="INkraP2U0uqstscji4Hl-15">
           <mxGeometry x="-0.0995" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INkraP2U0uqstscji4Hl-17" value="报警(扩展信息中携带人脸文件id、ibuttonId、cmdNo)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="INkraP2U0uqstscji4Hl-17" value="报警(扩展信息中携带&#xa;人脸文件id、ibuttonId、cmdNo)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250.5" y="430" />
@@ -115,7 +115,7 @@
         </mxCell>
         <mxCell id="INkraP2U0uqstscji4Hl-19" value="报警解析、处理&lt;br style=&quot;font-size: 12px;&quot;&gt;携带扩展信息创建证据任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="INkraP2U0uqstscji4Hl-18">
           <mxGeometry x="-0.0995" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="9" as="offset" />
+            <mxPoint x="22" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="INkraP2U0uqstscji4Hl-20" value="下发任务" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1" source="3" target="2">
@@ -147,8 +147,8 @@
             <mxPoint x="640" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INkraP2U0uqstscji4Hl-24" value="将ibuttonId、cmdNo与人脸图片id进行关联" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="INkraP2U0uqstscji4Hl-24" value="将ibuttonId、cmdNo&lt;br&gt;与人脸图片id进行关联" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="0.0025" y="20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="650" as="sourcePoint" />
             <mxPoint x="670" y="730" as="targetPoint" />
             <Array as="points">
@@ -159,6 +159,7 @@
               <mxPoint x="710.5" y="730" />
               <mxPoint x="680.5" y="730" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="INkraP2U0uqstscji4Hl-26" value="调用人脸对比接口" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1" source="4" target="3">

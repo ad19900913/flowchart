@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T10:26:42.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SZ0aTw5chZWcr9xJWzpE" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T00:24:04.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XRtFLwK2ZvIQVoYvtuZO" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1687" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-109" value="待处理数据刷新" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1707" y="121" width="330" height="550" as="geometry" />
+          <mxGeometry x="1707" y="121" width="330" height="629" as="geometry" />
         </mxCell>
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-105" value="数据清理" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2145" y="121" width="330" height="550" as="geometry" />
@@ -247,11 +247,18 @@
             <mxPoint x="1313" y="331" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujS3r8YRmqAKaWpUKP-i-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-71" target="ujS3r8YRmqAKaWpUKP-i-72">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-70" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ibutton id变更&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-71" target="ujS3r8YRmqAKaWpUKP-i-72">
+          <mxGeometry x="0.199" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-71" target="ujS3r8YRmqAKaWpUKP-i-117">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-129" value="司机人脸图片变更" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ujS3r8YRmqAKaWpUKP-i-118">
+          <mxGeometry x="0.2301" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-71" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1822" y="131" width="100" height="60" as="geometry" />
@@ -259,7 +266,7 @@
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-72" target="ujS3r8YRmqAKaWpUKP-i-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujS3r8YRmqAKaWpUKP-i-72" value="ibutton id变更" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-72" value="根据新、旧ibuttonId&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;筛选所有待处理的综合签到记录" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1720" y="261" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-73" target="ujS3r8YRmqAKaWpUKP-i-91">
@@ -351,7 +358,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujS3r8YRmqAKaWpUKP-i-110" value="Spring事件池" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-110" value="kafka&lt;br&gt;&amp;amp;&lt;br&gt;Spring事件池" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1600" y="11" width="86" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-115" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-114" target="ujS3r8YRmqAKaWpUKP-i-98">
@@ -360,11 +367,38 @@
         <mxCell id="ujS3r8YRmqAKaWpUKP-i-114" value="Spring调度器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2090" y="1" width="86" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ujS3r8YRmqAKaWpUKP-i-117" value="司机人脸图片变更" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1910" y="261" width="120" height="60" as="geometry" />
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-117" target="ujS3r8YRmqAKaWpUKP-i-127">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujS3r8YRmqAKaWpUKP-i-120" value="筛选所有ibuttonId不匹配" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-117" value="根据变更图片的特征值文件查询未知司机表，得到所有未处理的特征值文件id" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1900" y="261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-120" target="ujS3r8YRmqAKaWpUKP-i-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-120" value="更新ibutton_status及integrate_status" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1720" y="401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-125" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1830" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-127" target="ujS3r8YRmqAKaWpUKP-i-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-127" value="根据特征值文件id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;筛选所有待处理的综合签到记录" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1900" y="401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ujS3r8YRmqAKaWpUKP-i-133" target="ujS3r8YRmqAKaWpUKP-i-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujS3r8YRmqAKaWpUKP-i-133" value="更新face_status及integrate_status" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1900" y="541" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
